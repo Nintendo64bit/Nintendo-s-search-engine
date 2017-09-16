@@ -1,6 +1,8 @@
 <?php
 
-/* connnect with your usernamepassword and host and create the tables add links you want when you create the database*/
+/* connnect with your usernamepassword and host and create the tables add links you want when you create the database
+CREATE TABLE SEARCH_ENGINE ( `id` INT(11) NOT NULL AUTO_INCREMENT, `pageurl` VARCHAR(255) NOT NULL, `pagecontent` TEXT NOT NULL, PRIMARY KEY (`id`))
+*/
   
        //connect
 
