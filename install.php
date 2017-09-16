@@ -1,4 +1,8 @@
- //connect
+ connnect with your usernamepassword and host and create the tables add links you want when you create the database
+  
+       //connect
+
+
              mysql_connect("host","username", "password");
              mysql_select_db("your choice");
              
@@ -23,4 +27,3 @@
              //disconnect
              mysql_close();
               
-              connnect with your usernamepassword and host and create the tables
