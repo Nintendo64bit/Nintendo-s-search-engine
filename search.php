@@ -35,9 +35,10 @@ html {
               }
               
              //connect
-             mysql_connect("dhosting4okcs22v.onion","g3qe5t7hvainhtmm.onion", "oniichan");
-             mysql_select_db("g3qe5t7hvainhtmm.onion");
              
+       mysql_connect ( "localhost", "USER_NAME", "PASSWORD" ) ; 
+       mysql_select_db ( "DB_NAME" );
+
              $query = mysql_query($query);
              $numrows = mysql_num_rows($query);
              if ($numrows > 0) {
